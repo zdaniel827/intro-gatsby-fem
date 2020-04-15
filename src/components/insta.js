@@ -28,6 +28,7 @@ const Insta = () => {
           <a
             key={photo.id}
             target="_blank"
+            rel="noopener"
             href={`https://instagram.com/p/${photo.id}`}
             css={css`
               box-shadow: 0;
